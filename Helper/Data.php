@@ -14,10 +14,10 @@
  */
 
 namespace Duitku\Linkajaqris\Helper;
-// include_once('Duitku/ApiRequestor.php');
-// include_once('Duitku/DuitkuCore.php');
+include_once('Duitku/ApiRequestor.php');
+include_once('Duitku/DuitkuCore.php');
 use Duitku\Linkajaqris\Helper\DuitkuConstants;
-use Duitku\Linkajaqris\Helper\Duitku\Duitku_Linkajaqris_Core;
+use Duitku_Linkajaqris_Core;
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**

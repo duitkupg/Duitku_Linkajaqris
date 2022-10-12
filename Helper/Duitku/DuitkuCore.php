@@ -1,7 +1,5 @@
 <?php
-namespace Duitku\Linkajaqris\Helper\Duitku;
-// include_once('ApiRequestor.php');
-use Duitku\Linkajaqris\Helper\Duitku\Duitku_Linkajaqris_ApiRequestor;
+include_once('ApiRequestor.php');
 class Duitku_Linkajaqris_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
